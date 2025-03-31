@@ -1,0 +1,14 @@
+{
+  "name": "web-dev",
+  "version": "0.0.1",
+  "description": "Learning to Code",
+  "private": true,
+  "license": "MIT",
+  "author": "Pat von Student",
+  "scripts": {
+    "lint:html": "htmlhint"
+    },
+  "devDependencies": {
+    "qunit": "^2.21.1"
+  }
+}
