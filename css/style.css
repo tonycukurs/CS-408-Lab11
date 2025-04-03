@@ -1,12 +1,15 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border-color: #f8f8f8;
+  border-style: solid;
+  background-color: #c3e6cb;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   margin-top: 20px;
+  background-color: #f9f9f9;
 }
 th, td {
   border: 1px solid #ddd;
@@ -16,6 +19,7 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
+
 .delete-btn {
   background-color: #f44336;
   color: white;
@@ -66,6 +70,9 @@ th {
 #form-status {
   margin-top: 10px;
   font-style: italic;
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
 }
 
 #load-data {
@@ -79,4 +86,57 @@ th {
 
 #load-data:hover {
   background-color: #0b7dda;
+}
+
+/* General styles */
+body {
+  background-color: #b3b3b3; /* Bright green background */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+.grid {
+  margin: 0 auto;
+  padding:  20px;
+  display: flex;
+  grid-template-columns: 2fr 1fr; /* Make article wider than aside */
+  gap: 20px;
+}
+
+
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+
+/* Message display styling */
+.status-message {
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+#data-status {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+#app-status {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+/* Only display messages when they have content */
+.status-message:empty {
+  display: none;
 }
