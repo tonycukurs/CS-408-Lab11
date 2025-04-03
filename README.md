@@ -4,7 +4,7 @@
 
 This website shows the use of tabes and implmenting them to connect with the aws system. You are able to add items to the table on the website, delete items, and load the items to display all of them on a table.
 
-If you want to run the tester you need to 
+
 
 ## Sources and Credits
 
