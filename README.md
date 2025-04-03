@@ -4,11 +4,12 @@
 
 This website shows the use of tabes and implmenting them to connect with the aws system. You are able to add items to the table on the website, delete items, and load the items to display all of them on a table.
 
+If you want to run the tester you need to 
+
 ## Sources and Credits
 
 I used a lot of my code from previous labs. Mainly for css and some javascript examples.
 
-A simple bulleted list below is sufficient. For example:
 
 Lab 9 - https://github.com/tonycukurs/CS408-Lab9.git
 Lab 7 - https://github.com/tonycukurs/CS408-HW7.git
